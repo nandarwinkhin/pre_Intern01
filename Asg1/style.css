@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+  }
+
+ .fontcolor{
+    color: #011b66;
+    word-spacing: 1px;
+ }
+ .h3-header{
+    font-size: 30px;
+    font-weight: normal;
+ }
+  
+  .row {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .row:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  
+  
+/* Header */
+
+  .header {
+    text-align: center;
+    padding: 10px;
+    background-color: #011b66;
+    color: yellow;
+  }
+  div h2 {
+    margin-top: 20px;
+  }
+  
+  div .logo1 {
+    width: 100px;
+    height: auto;
+    margin-top: 30px;
+    float: left;
+  }
+  div .logo2 {
+    width: 250px;
+    height: auto;
+    float: right;
+  }
+  
+/* Nav Bar */
+
+  .navbar .nav {
+    list-style-type: none;
+    padding: 15px 0px;
+  }
+  .navbar .nav li {
+    display: inline-block;
+  }
+  .navbar .nav li a {
+    margin-right: 20px;
+    color: gray;
+    text-decoration: none;
+  }
+  .navbar .nav li a:hover {
+    color: #000;
+  }
+  
+/* Image */
+  
+  .img {
+    background: url("http://ujim-ucsh.org/wp-content/uploads/2020/04/94497141_1952845551507094_3933502393102106624_n.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+/* Info */
+
+  .clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
+  .info .row:first-of-type {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  .info .row:first-of-type h3 {
+    margin-bottom: 20px;
+  }
+  .info .subject {
+    float: left;
+    width: 40%;
+  }
+  
+  .info .sub-content h4:first-of-type {
+    color: darkred;
+    margin-bottom: 20px;
+  }
+  .info .sub-content h4 {
+    color: blue;
+    font-weight: normal;
+  }
+  .info .sub-content hr,
+  .teacher-content hr {
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.1);
+  }
+  .info .sub-content {
+    border-radius: 5px;
+    background-color: #7dcaf3;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .info .sub-content ul {
+    margin-left: 30px;
+    font-size: 15px;
+    line-height: 150%;
+    padding-bottom: 20px;
+  }
+  
+  .info .teacher {
+    float: left;
+    width: 60%;
+    padding-left: 30px;
+  }
+  .info .teacher-content h4:first-of-type {
+    margin-bottom: 20px;
+  }
+  
+  .info .teacher-content {
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .info .teacher-content .left {
+    float: left;
+    width: 40%;
+  }
+  .info .teacher-content .left ul,
+  .right ul {
+    list-style-type: none;
+    font-size: 15px;
+    line-height: 200%;
+  }
+  .info .teacher-content .right {
+    float: left;
+    width: 60%;
+  }
+  
+  .contact-person {
+    width: 400px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    padding: 20px;
+    background-color: #7dcaf3;
+    border-radius: 7px;
+  }
+  
+  .info {
+    padding-top: 30px;
+    font-family: sans-serif;
+  }
+  .info h2 {
+    color: darkred;
+    margin-bottom: 5px;
+    font-weight: normal;
+  }
+  .info p {
+    margin-bottom: 20px;
+  }
+  
+  .download {
+    margin: 30px 0px 40px 0px;
+  }
+
+  .caption {
+    float: left;
+    width: 40%;
+    text-align: center;
+    background-color:  #adc2eb;
+    padding: 40px 0px;
+  }
+
+  .data {
+    float: left;
+    width: 60%;
+    padding-left: 30px;
+  }
+  .data span {
+    color: mediumblue;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0px;
+    color: gold;
+    background-color: navy;
+  }
+
+  /* Contact Us */
+  /* contact section */
+.body{
+  width: 100%;
+}
+.contact{
+  
+  padding: 20px;
+  margin-left: 120px;
+  width: 40%;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+/* intouch */
+.touch{
+  position: absolute;
+  padding: 20px;
+  margin-left: 850px;
+  width: 30%;
+  top: 250px;
+  line-height: 50px;
+}
+.form{
+  
+  width: 70%;
+}
+#name,#email,#sub,#message{
+
+  width: 100%;
+  height: 8%;
+}
+
+a{
+  text-decoration: none;
+}
